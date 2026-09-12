@@ -8,7 +8,8 @@ endpoints:
       apiKey: "user_provided"
       baseURL: "user_provided"
       models:
-        default: []
+        default:
+          - "auto"
         fetch: true
       titleConvo: true
       modelDisplayLabel: "My API"
