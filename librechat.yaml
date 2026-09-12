@@ -9,7 +9,7 @@ endpoints:
       baseURL: "user_provided"
       models:
         default:
-          - "auto"
+          - "gpt-3.5-turbo"
         fetch: true
       titleConvo: true
       modelDisplayLabel: "My API"
