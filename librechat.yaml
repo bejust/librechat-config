@@ -1,0 +1,14 @@
+version: 1.3.5
+
+cache: true
+
+endpoints:
+  custom:
+    - name: "My API"
+      apiKey: "user_provided"
+      baseURL: "user_provided"
+      models:
+        default: []
+        fetch: true
+      titleConvo: true
+      modelDisplayLabel: "My API"
