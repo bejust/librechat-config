@@ -4,14 +4,23 @@ cache: true
 
 endpoints:
   custom:
-    - name: "OpenAI Compatible"
+
+    - name: "DeepSeek"
       apiKey: "user_provided"
       baseURL: "user_provided"
-
       models:
         default:
-          - "gpt-3.5-turbo"
+          - "deepseek-chat"
         fetch: true
-
       titleConvo: true
-      modelDisplayLabel: "OpenAI Compatible"
+      modelDisplayLabel: "DeepSeek"
+
+    - name: "K3"
+      apiKey: "user_provided"
+      baseURL: "user_provided"
+      models:
+        default:
+          - "k3"
+        fetch: true
+      titleConvo: true
+      modelDisplayLabel: "K3"
